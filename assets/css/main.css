@@ -2943,6 +2943,10 @@ input, select, textarea {
 			font-size: 0.8rem;
 			margin-top: -0.75rem;
 		}
+		
+		header > li {
+			list-style: none;
+		}
 
 		header.major {
 			margin: 0 0 4rem 0;
@@ -2979,6 +2983,11 @@ input, select, textarea {
 				header.major > .date:after {
 					right: 0;
 				}
+
+			ul.new-list {
+				list-style:none;
+				text-align: left;
+			}
 
 		@media screen and (max-width: 980px) {
 
